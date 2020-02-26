@@ -74,6 +74,17 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Interaction Beam Right"
+						}
+					}
+				},
+				{
 					"mode": "trackpad",
 					"path": "/user/hand/right/input/trackpad",
 					"inputs":
@@ -81,6 +92,17 @@
 						"touch":
 						{
 							"output": "/actions/main/in/Interaction Beam Right"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Interaction Beam Left"
 						}
 					}
 				},
